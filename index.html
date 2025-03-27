@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Assignment 2</h1>
+    <div class="container">
+        <div class="inner_box">
+            <h2>Reverse String</h2>
+            <input type="text" id="userInput1" placeholder="Enter a string to reverse ...." >
+            <button onclick="reverseString()">Reverse</button>
+            <p id="output1"></p>
+        </div>
+        <div class="inner_box">
+            <h2>Bill Calculator</h2>
+            <input type="number" id="subtotal" placeholder="Enter Subtotal" >
+            <input type="number" id="tipPercentage" placeholder="Enter Tip Percentage" >
+            
+            <button onclick="calculateTotal()">Calculate Total</button>
+            
+            <p id="totalOutput"></p>
+        </div>
+        <div class="inner_box">
+            <h2>Palindrome Checker</h2>
+            <input type="text" id="userInput2" placeholder="Enter numbers to check..." >
+            <button onclick="checkPalindrome()">Check</button>
+            <p id="output2"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
